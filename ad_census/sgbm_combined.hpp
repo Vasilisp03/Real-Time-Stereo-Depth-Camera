@@ -1075,8 +1075,8 @@ void xfSGBMcomputedisparity(hls::stream<ap_uint<16> > _agg_cost[PU],
                 //int c1 = cost_buf[d]; //the cost of current disparity
                 //int c2 = cost_buf[d + 1]; //the cost of next disparity
 
-                int denom = c0 - 2 * c1 + c2;   // denominator of the formulas
-                int num   = c0 - c2;            // numerator of the formula
+                int denom = (int)c0 - 2 * (int)c1 + (int)c2;   // denominator of the formulas
+                int num   = (int)c0 - (int)c2;            // numerator of the formula
 
                 int frac;                        // offset in 1/256 units
                 if (denom <= 0) {
