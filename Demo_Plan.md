@@ -2,6 +2,8 @@
 
 ## SGBM Parameters
 * Image Resolution: 768 x 384
+* Input: Two rectified images of the same scene
+* Output: Disparity Map
 
 
 ## Demo Plan
