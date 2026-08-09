@@ -1,4 +1,6 @@
-# SGBM Parameters
+# SGBM Acceleration & Optimization Demonstration 
+
+## SGBM Parameters
 * Image Resolution: 768 x 384
 
 
