@@ -18,3 +18,6 @@
 
 ### Shell Script: ./run_sgbm_bench.sh
 Does NOT handle timing itself. This script runs the given code the specified number of times and only pulls the timing values from the timing that is done within the code.
+```
+./run_sgbm_bench.sh -n 100 -- ./sgbm_host left.png right.png
+```
