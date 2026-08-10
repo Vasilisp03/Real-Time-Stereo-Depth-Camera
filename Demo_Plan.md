@@ -8,8 +8,12 @@
 
 ## Demo Plan
 1. Run the original Vitis Vision Library SGBM.
-   1. First in Software and profile
-3. Second in hardware and profile, noting speedup that Vitis Vision achieved
+   1. First in PS
+      1. Run 1 frame
+      2. Note The latency average latency over x runs of the same frame
+   2. Second in hardware
+      1. Run 1 frame 100 times
+      2. Our script reports the average latency
 4. Run our code
 5. First in software and profile
 6. Then in hardware and profile
