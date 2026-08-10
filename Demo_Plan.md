@@ -42,6 +42,8 @@ Does NOT handle timing itself. This script runs the given code the specified num
   - Min: 13.2 ms
   - Max: 14.3 ms
   - Avg: 13.3 ms
+  - Total bad pixels: 43.9%
+  - Avg error: 18.4%
 - HW Speedup over SW: ~1501x
 ### Our SGBM:
 - SW:
@@ -52,6 +54,8 @@ Does NOT handle timing itself. This script runs the given code the specified num
   - Min:
   - Max: 
   - Avg: 17.762 ms
+  - Total bad pixels:
+  - Avg error:
 - HW Speedup over SW: ~4333x
 ### Overall:
 - Our HW speedup over Vitis Vision HW: 0.75x
