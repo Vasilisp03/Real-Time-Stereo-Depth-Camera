@@ -33,7 +33,7 @@ Does NOT handle timing itself. This script runs the given code the specified num
 ```
 
 ## Results
-# Original Vitis Vision SGBM:
+### Original Vitis Vision SGBM:
 - SW:
   - Min: 14528.5 ms
   - Max: 20217.6 ms
@@ -43,7 +43,7 @@ Does NOT handle timing itself. This script runs the given code the specified num
   - Max: 14.3 ms
   - Avg: 13.3 ms
 - HW Speedup over SW: ~1501x
-# Our SGBM:
+### Our SGBM:
 - SW:
   - Min: 76967.8 ms (Only ran once)
   - Max: 76967.8 ms (Only ran once)
@@ -53,6 +53,6 @@ Does NOT handle timing itself. This script runs the given code the specified num
   - Max: 
   - Avg: 17.762 ms
 - HW Speedup over SW: ~4333x
-# Overall:
+### Overall:
 - Our HW speedup over Vitis Vision HW: 0.75x
 - Our SW speedup over Vitis Vision SW: 0.25x
