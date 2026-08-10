@@ -21,7 +21,7 @@
    1. Second in hardware
       1. Run 48 frames 100 times
       2. Our script reports the average, min and max latency
-3. Inspect the results and note the speedup
+3. Inspect the results from baseline and improved SGBM in hardware
 4. Run the accuracy comparison script against results of baseline and optimised code
 
 ### Shell Script: ./run_sgbm_bench.sh
