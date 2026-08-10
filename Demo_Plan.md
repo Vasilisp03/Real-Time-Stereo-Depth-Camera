@@ -22,8 +22,9 @@
       1. Run 48 frames 100 times
       2. Our script reports the average, min and max latency
 3. Inspect the results from baseline and improved SGBM in hardware
-4. Inspect results from our SW-only and HW-only outputs and note they are identical
-5. Run the accuracy comparison script against results of baseline and optimised code
+4. Inspect results from Vitis Vision SW-only and HW-only outputs
+5. Inspect results from our SW-only and HW-only outputs and note they are identical
+6. Run the accuracy comparison script against results of baseline and optimised code
 
 ### Shell Script: ./run_sgbm_bench.sh
 Does NOT handle timing itself. This script runs the given code the specified number of times and only pulls the timing values from the timing that is done within the code.
