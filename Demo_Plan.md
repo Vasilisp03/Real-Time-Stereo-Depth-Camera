@@ -7,7 +7,7 @@
 
 
 ## Demo Plan
-1. Run the original Vitis Vision Library SGBM.
+1. Run the original Vitis Vision Library SGBM
    1. First in PS
       1. Run 1 frame
       2. Note the average latency over x runs of the same frame
